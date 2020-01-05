@@ -19,14 +19,18 @@ provided by the emulator. If you try to use the emulator on this app with a phys
 you'll probably get an awkward symbol when typing the @ symbol.
 
 ## Screenshots of the app
-![Home](Documents/App_Home.png)
 Homescreen of the app.
-![Login](Documents/App_Login.png)
+
+<img src="./Documentation/App_Home.png" alt="drawing" width="325"/>
 Login screen of the app.
-![Register](Documents/App_Register.png)
+
+<img src="./Documentation/App_Login.png" alt="drawing" width="325"/>
 Register screen of the app.
-![Chat](Documents/App_Chat.png)
+
+<img src="./Documentation/App_Register.png" alt="drawing" width="325"/>
 Chat screen of the app.
+
+<img src="./Documentation/App_Chat.png" alt="drawing" width="325"/>
 
 ## Used 3rd party libraries
 Special thanks to the creators of these libraries:
