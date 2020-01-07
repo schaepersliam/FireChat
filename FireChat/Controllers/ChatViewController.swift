@@ -74,6 +74,11 @@ class ChatViewController: UIViewController {
         }
     }
     
+    @IBAction func aboutPressed(_ sender: Any) {
+        performSegue(withIdentifier: "goToAbout", sender: self)
+    }
+    
+    
 }
 
 extension ChatViewController: UITableViewDataSource {
