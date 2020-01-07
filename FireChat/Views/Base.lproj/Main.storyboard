@@ -308,7 +308,7 @@
                                 <rect key="frame" x="0.0" y="630" width="375" height="60"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write a message..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UWj-GQ-Vph">
-                                        <rect key="frame" x="20" y="20" width="275" height="40"/>
+                                        <rect key="frame" x="20" y="13" width="275" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="POz-11-5A0"/>
                                         </constraints>
@@ -317,7 +317,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pym-e9-R2r">
-                                        <rect key="frame" x="315" y="20" width="40" height="40"/>
+                                        <rect key="frame" x="315" y="13" width="40" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="NGg-CU-WWH"/>
                                             <constraint firstAttribute="height" constant="40" id="juP-5r-jAV"/>
@@ -333,8 +333,8 @@
                                 </subviews>
                                 <color key="backgroundColor" name="BrandPurple"/>
                                 <constraints>
-                                    <constraint firstItem="pym-e9-R2r" firstAttribute="top" secondItem="xlo-0G-XA6" secondAttribute="top" constant="20" id="27T-Dx-HYk"/>
-                                    <constraint firstItem="UWj-GQ-Vph" firstAttribute="top" secondItem="xlo-0G-XA6" secondAttribute="top" constant="20" id="FKs-Vm-x9G"/>
+                                    <constraint firstItem="pym-e9-R2r" firstAttribute="top" secondItem="xlo-0G-XA6" secondAttribute="top" constant="13" id="27T-Dx-HYk"/>
+                                    <constraint firstItem="UWj-GQ-Vph" firstAttribute="top" secondItem="xlo-0G-XA6" secondAttribute="top" constant="13" id="FKs-Vm-x9G"/>
                                     <constraint firstItem="UWj-GQ-Vph" firstAttribute="leading" secondItem="xlo-0G-XA6" secondAttribute="leading" constant="20" id="SmO-dP-jGc"/>
                                     <constraint firstAttribute="height" constant="60" id="cV2-4S-DU8"/>
                                     <constraint firstItem="pym-e9-R2r" firstAttribute="leading" secondItem="UWj-GQ-Vph" secondAttribute="trailing" constant="20" id="xZQ-Wv-YxR"/>
@@ -385,7 +385,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made with ❤️ by Liam Schäpers🙍🏼‍♂️ and Angela Yu👩🏻‍⚕️ in 📍MS, Germany &amp; London, UK" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBO-CY-C2D">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made with ❤️ by Liam Schäpers🙍🏼‍♂️ and Angela Yu👩🏻‍⚕️ in 📍MS, Germany &amp; London, UK" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="23" translatesAutoresizingMaskIntoConstraints="NO" id="nBO-CY-C2D">
                                 <rect key="frame" x="63.000000000000014" y="261" width="249.33333333333337" height="236.33333333333337"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="33"/>
                                 <color key="textColor" name="BrandLightBlue"/>
@@ -395,24 +395,22 @@
                                 <rect key="frame" x="60" y="534" width="255" height="178"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" translatesAutoresizingMaskIntoConstraints="NO" id="ESc-hL-WNk">
-                                        <rect key="frame" x="-170.66666666666669" y="-4" width="596.33333333333337" height="186"/>
+                                        <rect key="frame" x="-21.333333333333343" y="42.333333333333371" width="298" height="93"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UmX-7Q-xu6">
-                                        <rect key="frame" x="68" y="42" width="119" height="66"/>
+                                        <rect key="frame" x="85" y="42" width="85" height="66"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
                                         <state key="normal" title="Dismiss">
                                             <color key="titleColor" name="BrandPurple"/>
                                         </state>
                                         <connections>
-                                            <action selector="dismissPressed:" destination="Dyc-Uz-nj3" eventType="touchUpInside" id="Ywc-xw-YnU"/>
+                                            <action selector="dismissPressed:" destination="Dyc-Uz-nj3" eventType="touchUpInside" id="jcN-fR-IJb"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="ESc-hL-WNk" firstAttribute="centerX" secondItem="v1A-11-GKX" secondAttribute="centerX" id="60B-LZ-2DL"/>
                                     <constraint firstItem="UmX-7Q-xu6" firstAttribute="centerY" secondItem="v1A-11-GKX" secondAttribute="centerY" constant="-14" id="CJM-KS-1iG"/>
-                                    <constraint firstItem="UmX-7Q-xu6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="v1A-11-GKX" secondAttribute="leading" constant="20" symbolic="YES" id="cIm-na-gee"/>
-                                    <constraint firstAttribute="trailing" secondItem="UmX-7Q-xu6" secondAttribute="trailing" constant="68" id="hTA-oB-W51"/>
                                     <constraint firstItem="ESc-hL-WNk" firstAttribute="centerY" secondItem="v1A-11-GKX" secondAttribute="centerY" id="qok-Ne-1AV"/>
                                     <constraint firstItem="UmX-7Q-xu6" firstAttribute="top" secondItem="v1A-11-GKX" secondAttribute="top" constant="42" id="rwZ-B5-1ke"/>
                                     <constraint firstItem="UmX-7Q-xu6" firstAttribute="centerX" secondItem="v1A-11-GKX" secondAttribute="centerX" id="tJo-p5-ElW"/>
@@ -482,7 +480,7 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ATa-SG-gK1"/>
+        <segue reference="9bA-To-NMX"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>
